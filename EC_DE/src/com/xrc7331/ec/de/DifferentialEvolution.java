@@ -44,7 +44,8 @@ public class DifferentialEvolution<GenesType extends Number, IndividualType exte
     }
 
     /**
-     * Evolves a generation using the famous Differential evolution algorithm
+     * Evolves a generation using the famous Differential evolution algorithm.
+     * The bigger the fitness is, the better Individual.
      *
      * @param generation the generation that is going to be evolved
      * @param fitness    the fitness function used for evaluation
